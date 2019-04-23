@@ -1,6 +1,8 @@
 import {ChangeDetectionStrategy, Component, OnInit, ViewEncapsulation} from '@angular/core';
+import {CompactType, DisplayGrid, GridsterConfig, GridType} from '../../../../projects/angular-gridster2/src/lib/gridsterConfig.interface';
+import {GridsterItem} from '../../../../projects/angular-gridster2/src/lib/gridsterItem.interface';
+import {GridsterItemComponentInterface} from '../../../../projects/angular-gridster2/src/lib/gridsterItemComponent.interface';
 
-import {CompactType, DisplayGrid, GridsterConfig, GridsterItem, GridsterItemComponentInterface, GridType} from 'angular-gridster2';
 
 @Component({
   selector: 'app-items',

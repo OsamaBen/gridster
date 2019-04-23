@@ -18,7 +18,6 @@ import {MarkdownModule, MarkedOptions} from 'ngx-markdown';
 import {AppComponent} from './app.component';
 import {HomeComponent} from './sections/home/home.component';
 import {GridTypesComponent} from './sections/gridTypes/gridTypes.component';
-import {GridsterModule} from 'angular-gridster2';
 import {CompactComponent} from './sections/compact/compact.component';
 import {DisplayGridComponent} from './sections/displayGrid/displayGrid.component';
 import {SwapComponent} from './sections/swap/swap.component';
@@ -38,6 +37,7 @@ import {ParentDynamicComponent} from './sections/dynamicWidgets/parentDynamic.co
 import {WidgetAComponent} from './sections/dynamicWidgets/widgetA.component';
 import {WidgetBComponent} from './sections/dynamicWidgets/widgetB.component';
 import {WidgetCComponent} from './sections/dynamicWidgets/widgetC.component';
+import {GridsterModule} from '../../projects/angular-gridster2/src/lib/gridster.module';
 
 const appRoutes: Routes = [
   {path: '', component: HomeComponent},
